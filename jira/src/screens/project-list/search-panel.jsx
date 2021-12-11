@@ -2,7 +2,6 @@ import React from 'react'
 import { useState } from "react"
 
 export const SearchPanel = ({users, param, setParam}) => {
-  console.log(111, users)
   return <form action="">
     <div>
       <input type="text" value={param.name} onChange={evt => setParam({
